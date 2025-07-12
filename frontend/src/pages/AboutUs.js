@@ -56,7 +56,7 @@ const AboutUs = () => {
             <div className="bg-white shadow rounded-lg p-6">
               <div className="w-24 h-24 mx-auto rounded-full bg-gray-200"></div>
               <h3 className="text-lg font-semibold text-gray-800 mt-4">
-                Bhushan Nerkar
+                Bhushan B. Nerkar
               </h3>
               <p className="text-gray-500">CEO & Founder</p>
             </div>
