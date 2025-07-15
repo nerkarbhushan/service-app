@@ -5,7 +5,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
   const [output, setOutput] = useState("");
   const mapRef = useRef(null);
 
-  const baseRate = 250; // Base rate in currency units
+  const baseRate = 250; 
   const perKmRate = 10; // Additional cost per kilometer
 
   useEffect(() => {
