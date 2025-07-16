@@ -72,7 +72,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
     // Initialize DirectionsService and DirectionsRenderer
     const directionsService = new window.google.maps.DirectionsService();
     const directionsRenderer = new window.google.maps.DirectionsRenderer({
-      suppressMarkers: true, // Disable default markers (A and B)
+      suppressMarkers: true, 
     });
     directionsRenderer.setMap(mapObj);
 
