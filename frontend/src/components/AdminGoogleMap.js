@@ -6,7 +6,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
   const mapRef = useRef(null);
 
   const baseRate = 250; 
-  const perKmRate = 10; // Additional cost per kilometer
+  const perKmRate = 10;
 
   useEffect(() => {
     if (!userLocation || !providerLocation) {
