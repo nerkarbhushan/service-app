@@ -115,7 +115,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
           const durationText = result.routes[0].legs[0].duration.text;
           const distanceInKm = parseFloat(
             result.routes[0].legs[0].distance.value / 1000
-          ); // Convert to kilometers
+          );
 
           // Calculate the price
           const calculatedPrice = baseRate + perKmRate * distanceInKm;
