@@ -75,8 +75,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
       suppressMarkers: true, 
     });
     directionsRenderer.setMap(mapObj);
-
-    // Add directional arrows
+    
     const addDirectionalArrows = (route) => {
       const lineSymbol = {
         path: window.google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
