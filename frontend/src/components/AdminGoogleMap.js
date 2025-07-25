@@ -89,7 +89,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
           {
             icon: lineSymbol,
             offset: "0%",
-            repeat: "100px", // Adjust the spacing of the arrows
+            repeat: "100px",
           },
         ],
         strokeColor: "#0000",
