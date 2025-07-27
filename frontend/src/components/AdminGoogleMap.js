@@ -145,7 +145,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
     // Calculate route when the component is mounted
     calcRoute();
 
-    // Cleanup on component unmount
+    // Cleanup on component
     return () => {
       directionsRenderer.setMap(null);
       providerMarker.setMap(null);
