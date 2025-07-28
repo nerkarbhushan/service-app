@@ -19,7 +19,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
     const userLat = userLocation.lat;
     const userLng = userLocation.lon;
 
-    // Initialize map options
+    // Initialize map option
     const mapOptions = {
       center: { lat: providerLat, lng: providerLng },
       zoom: 7,
