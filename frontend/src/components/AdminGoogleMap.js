@@ -30,7 +30,7 @@ const AdminGoogleMap = ({ userLocation, providerLocation, setPrice }) => {
     const mapObj = new window.google.maps.Map(mapRef.current, mapOptions);
     setMap(mapObj);
 
-    // Add custom markers for Provider and User
+    // Add custom markers for Provider and
     const providerMarker = new window.google.maps.Marker({
       position: { lat: providerLat, lng: providerLng },
       map: mapObj,
