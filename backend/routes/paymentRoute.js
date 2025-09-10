@@ -10,6 +10,7 @@ import {
   completeOrder,
   cancelOrder,
 } from "../controllers/paymentController.js";
+// Method POST
 router.post("/confirmPayment", confirmPayment);
 router.post(
   "/fetchPaymentDetails/:userId/:scheduleTime/:price",
@@ -22,3 +23,4 @@ router.post("/generateAccessToken", generateAccessToken);
 router.get("/completeOrder", completeOrder);
 router.get("/cancelOrder", cancelOrder);
 export default router;
+
